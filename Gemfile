@@ -10,7 +10,7 @@ gem 'pg'
 gem 'taps'
 # Use unicorn as the web server
 # gem 'unicorn'
-
+gem 'sqlite3'
 # Deploy with Capistrano
 # gem 'capistrano'
 
