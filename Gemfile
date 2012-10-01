@@ -11,6 +11,13 @@ gem 'taps'
 # Use unicorn as the web server
 # gem 'unicorn'
 gem 'sqlite3' , '1.3.6' , :group => :development
+
+gem 'rspec-rails','2.6.1' , :group => :development
+
+group :test do
+  gem 'rspec-rails','2.6.1'
+  gem 'webrat','0.7.1'
+end
 # Deploy with Capistrano
 # gem 'capistrano'
 
