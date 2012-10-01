@@ -4,8 +4,7 @@ gem 'rails', '3.0.12'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-
-gem 'mysql2', '0.2.17'
+gem 'mysql2', '0.2.17',:group => :development
 gem 'heroku'
 gem 'pg'
 gem 'taps'
